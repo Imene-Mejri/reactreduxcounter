@@ -15,10 +15,10 @@ function App() {
       <h1>the workshop redux</h1>
       <h2>Counter</h2>
       <div className='counter'>
-      <button onClick={()=>Dispatch(incrementhandler)} >PLUS</button>
+      <button onClick={()=>Dispatch(incrementhandler())} >PLUS</button>
       <h4>{counter }</h4>
-      <button onClick={()=>Dispatch(decrementhandler)}>MOINS</button>
-      <button onClick={()=>Dispatch (Resethandler)}>reset</button>
+      <button onClick={()=>Dispatch(decrementhandler())}>MOINS</button>
+      <button onClick={()=>Dispatch (Resethandler())}>reset</button>
       </div>
     </div>
   );
