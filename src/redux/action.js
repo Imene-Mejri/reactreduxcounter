@@ -1,20 +1,20 @@
 
 
 
-import {increment} from './action-types';
-import {decrement}from './action-types';
+import {Increment} from './action-types';
+import {Decrement}from './action-types';
 import {Reset} from './action-types';
 
 
  export const incrementhandler=()=>{
      return{
-         type:increment
+         type:Increment
         }
  }
 
  export const decrementhandler=()=>{
      return {
-     type:decrement
+     type:Decrement
     }
  }
 

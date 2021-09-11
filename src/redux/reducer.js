@@ -1,5 +1,5 @@
-import { increment } from "./action-types";
-import { decrement } from "./action-types";
+import { Increment } from "./action-types";
+import {Decrement} from './action-types'
 import { Reset } from "./action-types";
 
 
@@ -10,8 +10,8 @@ const initialstate = {
 
 export const counterreducer = (state = initialstate, action) => {
     switch (action.type) {
-        case increment: return ({ ...state, counter:state.counter + 1 })
-        case decrement:return({...state, counter:state.counter-1})
+        case Increment: return ({ ...state, counter:state.counter + 1 })
+        case Decrement:return({...state, counter:state.counter-1})
         case Reset :return({...state, counter:0})
         default: return state;
     }
