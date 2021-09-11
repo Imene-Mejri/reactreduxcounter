@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  align-items: center;
+ 
+
+}
+.counter{
+  background-color:crimson;
+  width: 500px;
+  height: 400px;
+margin-top: 90px;
+margin-left: 490px;
+margin-bottom: 320px;
+  padding: 90px;
+ 
+}
+body{
+ align-content: center;
+}
+button{
+  height: 60px;
+  width: 80px;
+ margin-top: 50px;
+}
+.counter h4{
+  margin-top: 100px;
+  
+}
+
